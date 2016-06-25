@@ -16,3 +16,7 @@ The following functionality is completed:
 [✓] User can persist todo items and retrieve them properly on app restart. <br />
 
 Here's a walkthrough of implemented user stories: 
+
+![Video Walkthrough](https://cloud.githubusercontent.com/assets/2444253/16355285/30778c1a-3a67-11e6-8875-f1b86e3c4f83.gif)
+
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
