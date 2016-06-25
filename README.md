@@ -17,6 +17,4 @@ The following functionality is completed:
 
 Here's a walkthrough of implemented user stories: 
 
-![Video Walkthrough](https://cloud.githubusercontent.com/assets/2444253/16355285/30778c1a-3a67-11e6-8875-f1b86e3c4f83.gif)
-
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+![Video Walkthrough](https://cloud.githubusercontent.com/assets/2444253/16355355/e6e8d912-3a68-11e6-8eb2-74a150dd1bde.gif)
