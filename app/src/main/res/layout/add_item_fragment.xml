@@ -1,0 +1,126 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.letsdecode.mytodo.fragment.AddItemFragment">
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textView_taskName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:errorEnabled="true">
+
+        <EditText
+            android:id="@+id/editText_taskName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/taskNameHint"
+            android:inputType="textCapSentences" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_taskName"
+        android:orientation="horizontal"
+        app:errorEnabled="true">
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/editText_duedate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:cursorVisible="false"
+            android:drawableEnd="@drawable/ic_date_range_black_24dp"
+            android:drawableRight="@drawable/ic_date_range_black_24dp"
+            android:focusable="false"
+            android:hint="@string/dueDateHint"
+            android:textColor="@android:color/black" />
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:id="@+id/textView_priority"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/date"
+        android:text="@string/priorityText" />
+
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_priority"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/button_low"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:buttonTint="@color/colorLow"
+            android:colorAccent="@color/colorLow"
+            android:gravity="center"
+            android:text="@string/lowButtonText" />
+
+        <RadioButton
+            android:id="@+id/button_med"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:buttonTint="@color/colorMedium"
+            android:colorAccent="@color/colorMedium"
+            android:gravity="center"
+            android:text="@string/mediumButtonText" />
+
+        <RadioButton
+            android:id="@+id/button_high"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:buttonTint="@color/colorHigh"
+            android:gravity="center"
+            android:text="@string/highButtonText" />
+
+        <RadioButton
+            android:id="@+id/button_urgent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:buttonTint="@color/colorUrgent"
+            android:gravity="center"
+            android:text="@string/urgentButtonText" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button_addItem"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radiogroup"
+        android:layout_marginTop="40dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/submitButtonText"
+        android:textColor="@android:color/white" />
+
+
+    <TextView
+        android:id="@+id/button_trash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:text="@string/removeButtonText"
+        android:textColor="@color/colorDelete"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

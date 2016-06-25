@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorLow">#2196F3</color>
+    <color name="colorMedium">#4CAF50</color>
+    <color name="colorHigh">#FF9800</color>
+    <color name="colorUrgent">#F44336</color>
+    <color name="colorDelete">#d96060</color>
+    <color name="colorBackground">#ACFFFFFF</color>
+    <color name="colorWhite">#ffffffff</color>
+    <color name="timeTextOverdue">#ff0000</color>
+    <color name="itemNameColor">#000000</color>
+    <color name="cardColor">#ffffff</color>
+
+
+
+</resources>
